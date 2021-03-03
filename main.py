@@ -13,5 +13,6 @@ while True:
     cv2.imshow("frame1", gray)
 
     # if i hit 'q' on my keyboard while in the frame, it will close:
+    # the waitkey is in milliseconds binding the keyboard
     if cv2.waitKey(20) & 0xFF == ord('q'):
         break
